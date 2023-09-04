@@ -1,0 +1,39 @@
+ 
+ [22,27,16,2,18,6] -> Insertion Sort
+
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+Big-O gösterimini yazınız.
+
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+Average case: Aradığımız sayının ortada olması
+Worst case: Aradığımız sayının sonda olması
+Best case: Aradığımız sayının dizinin en başında olması.
+
+
+
+ 
+ Dizinin aşamaları:
+
+[22, 27, 16, 2, 18, 6]
+[22, 27, 16, 2, 18, 6] 
+[16, 22, 27, 2, 18, 6] 
+[2, 16, 22, 27, 18, 6] 
+[2, 16, 18, 22, 27, 6] 
+[2, 6,  16, 18, 22, 27] 
+
+Big(O)= O(n^2) dir
+
+
+sıralandıktan sonra 18 için:
+
+Average case:18 sayısı ortada yer aldığında 3 karşılaştırma yapılır.
+
+Worst case: Aradığımız sayının sonda olması durumunda n-1 karşılaştırma yapılır. Bu durumda, 18 sayısı dizinin sonunda yer aldığında 5 karşılaştırma yapılır.
+Best case: Aradığımız sayının dizinin en başında olması durumunda en iyi durum gerçekleşir ve sadece 1 karşılaştırma yapılır.
+Sonuç olarak, 18 sayısı için:
+
+Average case: 3 
+Worst case: 5 
+Best case: 1 
